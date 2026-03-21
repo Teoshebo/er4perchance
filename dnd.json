@@ -1,0 +1,3267 @@
+<script id="dbJson" type="application/json">
+{
+  "types": [
+    "Оружие",
+    "Броня",
+    "Зелья",
+    "Книги/Магия",
+    "Снаряжение",
+    "Инструменты",
+    "Наркотики и Вещества",
+    "Товары",
+    "Яды"
+  ],
+  "items": [
+    {
+      "name": "Боевой посох",
+      "baseCost": 0.2,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 дробящий\t4 фнт.\tУниверсальное (1к8)",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Сталь",
+        "Серебро"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Стёганый Доспех",
+      "baseCost": 5,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "11 + модификатор Лов\t—\tПомеха\t8 фнт.",
+      "tags": [
+        "Одежда"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Булава",
+      "baseCost": 5,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 дробящий\t4 фнт.\t—",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Кожаный Доспех",
+      "baseCost": 10,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "11 + модификатор Лов\t—\t—\t10 фнт.",
+      "tags": [],
+      "allowedMaterials": [
+        "Кожа",
+        "Кожа Дракона"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Кольчужная рубаха",
+      "baseCost": 50,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "13 + модификатор Лов (макс. 2)\t—\t—\t20 фнт.",
+      "tags": [
+        "Доспехи"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Чешуйчатый Доспех",
+      "baseCost": 50,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "14 + модификатор Лов (макс. 2)\t—\tПомеха\t45 фнт.",
+      "tags": [
+        "Доспехи"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Абак",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Блок и лебёдка",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Проклёпанный кожаный доспех",
+      "baseCost": 45,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "12 + модификатор Лов\t—\t—\t13 фнт.",
+      "tags": [],
+      "allowedMaterials": [
+        "Кожа",
+        "Кожа Дракона"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Шкурный доспех",
+      "baseCost": 10,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "12 + модификатор Лов (макс. 2)\t—\t—\t12 фнт.",
+      "tags": [],
+      "allowedMaterials": [
+        "Кожа"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Кираса",
+      "baseCost": 400,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "14 + модификатор Лов (макс. 2)\t—\t—\t20 фнт.",
+      "tags": [
+        "Доспехи"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Полулаты",
+      "baseCost": 750,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "15 + модификатор Лов (макс. 2)\t—\tПомеха\t40 фнт.",
+      "tags": [],
+      "allowedMaterials": [
+        "Сталь",
+        "Серебро",
+        "Мифрил",
+        "Адское Железо",
+        "Эльфийская сталь",
+        "Золото",
+        "Адамантин"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Колечный доспех",
+      "baseCost": 30,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "14\t—\tПомеха\t40 фнт.",
+      "tags": [
+        "Доспехи"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Кольчуга",
+      "baseCost": 75,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "16\tСил 13\tПомеха\t55 фнт.",
+      "tags": [],
+      "allowedMaterials": [
+        "Сталь",
+        "Серебро",
+        "Мифрил",
+        "Адское Железо",
+        "Эльфийская сталь",
+        "Золото",
+        "Адамантин"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Наборный доспех",
+      "baseCost": 200,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "17\tСил 15\tПомеха\t60 фнт.",
+      "tags": [
+        "Доспехи"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Латы",
+      "baseCost": 1500,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "18\tСил 15\tПомеха\t65 фнт.",
+      "tags": [],
+      "allowedMaterials": [
+        "Сталь",
+        "Серебро",
+        "Мифрил",
+        "Адское Железо",
+        "Эльфийская сталь",
+        "Золото",
+        "Адамантин"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Щит",
+      "baseCost": 10,
+      "type": "Броня",
+      "icon": "🛡️",
+      "desc": "2\t—\t—\t6 фнт.",
+      "tags": [
+        "Щиты"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Дубинка",
+      "baseCost": 0.1,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к4 дробящий\t2 фнт.\tЛёгкое",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Дерево"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Кинжал",
+      "baseCost": 2,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к4 колющий\t1 фнт.\tЛёгкое, метательное (дис. 20/60), фехтовальное",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Копьё",
+      "baseCost": 1,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 колющий\t3 фнт.\tМетательное (дис. 20/60), универсальное (1к8)",
+      "tags": [
+        "Деревянное оружие",
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Лёгкий молот",
+      "baseCost": 2,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к4 дробящий\t2 фнт.\tЛёгкое, метательное (дис. 20/60)",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Метательное копьё",
+      "baseCost": 0.5,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 колющий\t2 фнт.\tМетательное (дис. 30/120)",
+      "tags": [
+        "Деревянное оружие",
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Палица",
+      "baseCost": 0.2,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 дробящий\t10 фнт.\tДвуручное",
+      "tags": [
+        "Деревянное оружие",
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Ручной топор",
+      "baseCost": 5,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 рубящий\t2 фнт.\tЛёгкое, метательное (дис. 20/60)",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Серп",
+      "baseCost": 1,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к4 рубящий\t2 фнт.\tЛёгкое",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Арбалет, лёгкий",
+      "baseCost": 25,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 колющий\t5 фнт.\tБоеприпас (дис. 80/320), двуручное, перезарядка",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Сталь",
+        "Серебро",
+        "Мифрил",
+        "Адское Железо",
+        "Эльфийская сталь",
+        "Золото",
+        "Адамантин"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Дротик",
+      "baseCost": 0.05,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к4 колющий\t1/4 фнт.\tМетательное (дис. 20/60), фехтовальное",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Короткий лук",
+      "baseCost": 25,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 колющий\t2 фнт.\tБоеприпас (дис. 80/320), двуручное",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Мифрил"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Праща",
+      "baseCost": 0.1,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к4 дробящий\t—\tБоеприпас (дис. 30/120)",
+      "tags": [],
+      "allowedMaterials": [
+        "Кожа",
+        "Шелк",
+        "Камень",
+        "Лён"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Алебарда",
+      "baseCost": 20,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к10 рубящий\t6 фнт.\tДвуручное, досягаемость, тяжёлое",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Боевая кирка",
+      "baseCost": 5,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 колющий\t2 фнт.\t—",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Боевой молот",
+      "baseCost": 15,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 дробящий\t2 фнт.\tУниверсальное (1к10)",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Боевой топор",
+      "baseCost": 10,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 рубящий\t4 фнт.\tУниверсальное (1к10)",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Глефа",
+      "baseCost": 20,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к10 рубящий\t6 фнт.\tДвуручное, досягаемость, тяжёлое",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Двуручный меч",
+      "baseCost": 50,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "2к6 рубящий\t6 фнт.\tДвуручное, тяжёлое",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Длинное копьё",
+      "baseCost": 10,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к12 колющий\t6 фнт.\tДосягаемость, особое",
+      "tags": [
+        "Деревянное оружие",
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Длинный меч",
+      "baseCost": 15,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 рубящий\t3 фнт.\tУниверсальное (1к10)",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Кнут",
+      "baseCost": 2,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к4 рубящий\t3 фнт.\tДосягаемость, фехтовальное",
+      "tags": [],
+      "allowedMaterials": [
+        "Кожа",
+        "Камень",
+        "Сталь",
+        "Мифрил",
+        "Эльфийская сталь"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Короткий меч",
+      "baseCost": 10,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 колющий\t2 фнт.\tЛёгкое, фехтовальное",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Молот",
+      "baseCost": 10,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "2к6 дробящий\t10 фнт.\tДвуручное, тяжёлое",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Моргенштерн",
+      "baseCost": 15,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 колющий\t4 фнт.\t—",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Пика",
+      "baseCost": 5,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к10 колющий\t18 фнт.\tДвуручное, досягаемость, тяжёлое",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Рапира",
+      "baseCost": 25,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 колющий\t2 фнт.\tФехтовальное",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Секира",
+      "baseCost": 30,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к12 рубящий\t7 фнт.\tДвуручное, тяжёлое",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Скимитар",
+      "baseCost": 25,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 рубящий\t3 фнт.\tЛёгкое, фехтовальное",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Трезубец",
+      "baseCost": 5,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 колющий\t4 фнт.\tМетательное (дис. 20/60), универсальное (1к8)",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Цеп",
+      "baseCost": 10,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 дробящий\t2 фнт.\t—",
+      "tags": [
+        "Оружие"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": true
+    },
+    {
+      "name": "Арбалет, ручной",
+      "baseCost": 75,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к6 колющий\t3 фнт.\tБоеприпас (дис. 30/120), лёгкое, перезарядка",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Сталь",
+        "Серебро",
+        "Мифрил",
+        "Адское Железо",
+        "Золото"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Арбалет, тяжёлый",
+      "baseCost": 50,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к10 колющий\t18 фнт.\tБоеприпас (дис. 100/400), двуручное, перезарядка, тяжёлое",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Сталь",
+        "Серебро",
+        "Мифрил",
+        "Эльфийская сталь",
+        "Золото"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Длинный лук",
+      "baseCost": 50,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1к8 колющий\t2 фнт.\tБоеприпас (дис. 150/600), двуручное, тяжёлое",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Мифрил",
+        "Эльфийская сталь"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Духовая трубка",
+      "baseCost": 10,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "1 колющий\t1 фнт.\tБоеприпас (дис. 25/100), перезарядка",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Сталь",
+        "Мифрил"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Сеть",
+      "baseCost": 1,
+      "type": "Оружие",
+      "icon": "🗡️",
+      "desc": "—\t3 фнт.\tМетательное (дис. 5/15), особое",
+      "tags": [],
+      "allowedMaterials": [
+        "Шелк",
+        "Камень",
+        "Серебро",
+        "Мифрил",
+        "Лён"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Алхимический огонь (фляга)",
+      "baseCost": 50,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Арбалетные болты (20)",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1.5 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Иглы для трубки (50)",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Снаряды для пращи (20)",
+      "baseCost": 0.04,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1.5 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Стрелы (20)",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Бочка",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "70 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Бумага (один лист)",
+      "baseCost": 0.02,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Бурдюк",
+      "baseCost": 0.02,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "5 фнт. (полн.)",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Бутылка, стеклянная",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Ведро",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Верёвка пеньковая (50 футов)",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "10 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Верёвка, шёлковая (50 футов)",
+      "baseCost": 10,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Весы, торговые",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Воск",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Горшок, железный",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "10 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Духи (флакон)",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Замок",
+      "baseCost": 10,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье лечения",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "½ фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зеркало, стальное",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "½ фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Калтропы (20 штук в сумке)",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "2 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кандалы",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "6 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кирка, горняцкая",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "10 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кислота (флакон)",
+      "baseCost": 25,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Книга",
+      "baseCost": 25,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Книга заклинаний",
+      "baseCost": 50,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Колокольчик",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Колчан",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кольцо-печатка",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Комплект для лазания",
+      "baseCost": 25,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "12 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Комплект для рыбалки",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "4 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Комплект целителя",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Контейнер для арбалетных болтов",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Контейнер для карт и свитков",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Корзина",
+      "baseCost": 0.04,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кошель",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Крюк-кошка",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "4 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кувшин или графин",
+      "baseCost": 0.02,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "4 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Лампа",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Лестница (10 футов)",
+      "baseCost": 0.1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "25 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Ломик",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Лопата",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Волшебная палочка",
+      "baseCost": 10,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Жезл",
+      "baseCost": 10,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кристалл",
+      "baseCost": 10,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Посох",
+      "baseCost": 5,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "4 фнт.",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Дерево"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Сфера",
+      "baseCost": 20,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Масло (фляга)",
+      "baseCost": 0.1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Мел (1 кусочек)",
+      "baseCost": 0.01,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Металлические шарики (1 000 шт. в сумке)",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "2 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Мешок",
+      "baseCost": 0.01,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "½ фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Мешочек с компонентами",
+      "baseCost": 25,
+      "type": "Книги/Магия",
+      "icon": "📖",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Молот, кузнечный",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "10 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Молоток",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Мыло",
+      "baseCost": 0.02,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Одежда, дорожная",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "👕",
+      "desc": "4 фнт.",
+      "tags": [
+        "Одежда"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Одежда, костюм",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "👕",
+      "desc": "4 фнт.",
+      "tags": [
+        "Одежда"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Одежда, обычная",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "👕",
+      "desc": "3 фнт.",
+      "tags": [
+        "Одежда"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Одежда, отличная",
+      "baseCost": 15,
+      "type": "Снаряжение",
+      "icon": "👕",
+      "desc": "6 фнт.",
+      "tags": [
+        "Одежда"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Одеяло",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Охотничий капкан",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "25 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Палатка, двухместная",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "20 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Пергамент (один лист)",
+      "baseCost": 0.01,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Песочные часы",
+      "baseCost": 25,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Писчее перо",
+      "baseCost": 0.02,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Подзорная труба",
+      "baseCost": 1000,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Противоядие (флакон)",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Рационы (1 день)",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "🍖",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Рюкзак",
+      "baseCost": 2,
+      "type": "Снаряжение",
+      "icon": "🎒",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Ряса",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "👕",
+      "desc": "4 фнт.",
+      "tags": [
+        "Одежда"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Свеча",
+      "baseCost": 0.01,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Святая вода (фляга)",
+      "baseCost": 25,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Амулет",
+      "baseCost": 5,
+      "type": "Книги/Магия",
+      "icon": "🔮",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Реликварий",
+      "baseCost": 5,
+      "type": "Книги/Магия",
+      "icon": "🔮",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Эмблема",
+      "baseCost": 5,
+      "type": "Книги/Магия",
+      "icon": "🔮",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Сигнальный свисток",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Спальник",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "7 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Столовый набор",
+      "baseCost": 0.02,
+      "type": "Снаряжение",
+      "icon": "🍽️",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Сундук",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "25 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Таран, портативный",
+      "baseCost": 4,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "35 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Точильный камень",
+      "baseCost": 0.01,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Трутница",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Увеличительное стекло",
+      "baseCost": 100,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Факел",
+      "baseCost": 0.01,
+      "type": "Снаряжение",
+      "icon": "🔥",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Флакон",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Фляга или большая кружка",
+      "baseCost": 0.02,
+      "type": "Снаряжение",
+      "icon": "🍺",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Веточка омелы",
+      "baseCost": 1,
+      "type": "Книги/Магия",
+      "icon": "🌿",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Деревянный посох",
+      "baseCost": 5,
+      "type": "Книги/Магия",
+      "icon": "🌿",
+      "desc": "4 фнт.",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Дерево"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Тисовая палочка",
+      "baseCost": 10,
+      "type": "Книги/Магия",
+      "icon": "🌿",
+      "desc": "1 фнт.",
+      "tags": [
+        "Деревянное оружие"
+      ],
+      "allowedMaterials": [
+        "Дерево"
+      ],
+      "hasVariations": true
+    },
+    {
+      "name": "Тотем",
+      "baseCost": 1,
+      "type": "Книги/Магия",
+      "icon": "🌿",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Фонарь, закрытый",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "🏮",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Фонарь, направленный",
+      "baseCost": 10,
+      "type": "Снаряжение",
+      "icon": "🏮",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Цепь (10 футов)",
+      "baseCost": 5,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "10 фнт.",
+      "tags": [
+        "Боеприпасы"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Чернила (бутылочка 30 граммов)",
+      "baseCost": 10,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Шест (10 футов)",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "7 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Шипы, железные (10)",
+      "baseCost": 1,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Шлямбур",
+      "baseCost": 0.05,
+      "type": "Снаряжение",
+      "icon": "📦",
+      "desc": "¼ фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Яд, простой (флакон)",
+      "baseCost": 100,
+      "type": "Яды",
+      "icon": "🧪",
+      "desc": "—",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Воровские инструменты",
+      "baseCost": 25,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "1 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты алхимика",
+      "baseCost": 50,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "8 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты гончара",
+      "baseCost": 10,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты каллиграфа",
+      "baseCost": 10,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты каменщика",
+      "baseCost": 10,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "8 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты картографа",
+      "baseCost": 15,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "6 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты кожевника",
+      "baseCost": 5,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты кузнеца",
+      "baseCost": 20,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "8 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты навигатора",
+      "baseCost": 25,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты отравителя",
+      "baseCost": 50,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты пивовара",
+      "baseCost": 20,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "9 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты плотника",
+      "baseCost": 8,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "6 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты повара",
+      "baseCost": 1,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "8 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты резчика по дереву",
+      "baseCost": 1,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты ремонтника",
+      "baseCost": 50,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "10 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты сапожника",
+      "baseCost": 5,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты стеклодува",
+      "baseCost": 30,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты ткача",
+      "baseCost": 1,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты художника",
+      "baseCost": 10,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Инструменты ювелира",
+      "baseCost": 25,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "2 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Драконьи шахматы",
+      "baseCost": 1,
+      "type": "Инструменты",
+      "icon": "🎲",
+      "desc": "1/2 фнт.",
+      "tags": [
+        "Игровой набор"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Карты",
+      "baseCost": 0.05,
+      "type": "Инструменты",
+      "icon": "🎲",
+      "desc": "—",
+      "tags": [
+        "Игровой набор"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кости",
+      "baseCost": 0.01,
+      "type": "Инструменты",
+      "icon": "🎲",
+      "desc": "—",
+      "tags": [
+        "Игровой набор"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Ставка трех драконов",
+      "baseCost": 1,
+      "type": "Инструменты",
+      "icon": "🎲",
+      "desc": "—",
+      "tags": [
+        "Игровой набор"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Барабан",
+      "baseCost": 6,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "3 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Виола",
+      "baseCost": 30,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "1 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Волынка",
+      "baseCost": 30,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "6 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Лира",
+      "baseCost": 30,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "2 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Лютня",
+      "baseCost": 35,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "2 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Рожок",
+      "baseCost": 3,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "2 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Свирель",
+      "baseCost": 12,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "2 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Флейта",
+      "baseCost": 2,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "1 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Цимбалы",
+      "baseCost": 25,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "10 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Шалмей",
+      "baseCost": 2,
+      "type": "Инструменты",
+      "icon": "🎵",
+      "desc": "1 фнт.",
+      "tags": [
+        "Музыкальный инструмент"
+      ],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Набор для грима",
+      "baseCost": 25,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Набор для фальсификации",
+      "baseCost": 15,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "5 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Набор травника",
+      "baseCost": 5,
+      "type": "Инструменты",
+      "icon": "🔧",
+      "desc": "3 фнт.",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Бальзам мурусы",
+      "baseCost": 100,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Белое семя призрачной орхидеи",
+      "baseCost": 0,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Драконья кровь",
+      "baseCost": 0,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Корень тэки",
+      "baseCost": 3,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Лист олисуба",
+      "baseCost": 50,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Масло тенистой ивы",
+      "baseCost": 30,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Соли прорицания",
+      "baseCost": 150,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Сонная лилия",
+      "baseCost": 1,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Трупный ихор",
+      "baseCost": 200,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Чёрное семя призрачной орхидеи",
+      "baseCost": 0,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Чёрный сок",
+      "baseCost": 300,
+      "type": "Наркотики и Вещества",
+      "icon": "💊",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Пшеница (1 фунт)",
+      "baseCost": 0.01,
+      "type": "Товары",
+      "icon": "🌾",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Мука (1 фунт)",
+      "baseCost": 0.02,
+      "type": "Товары",
+      "icon": "🌾",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Курица",
+      "baseCost": 0.02,
+      "type": "Товары",
+      "icon": "🐔",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Соль (1 фунт)",
+      "baseCost": 0.05,
+      "type": "Товары",
+      "icon": "🧂",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Железо (1 фунт)",
+      "baseCost": 0.1,
+      "type": "Товары",
+      "icon": "⚙️",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Холст (1 кв.м)",
+      "baseCost": 0.1,
+      "type": "Товары",
+      "icon": "🧵",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Медь (1 фунт)",
+      "baseCost": 0.5,
+      "type": "Товары",
+      "icon": "🪙",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Хлопчатобумажная ткань (1 кв.м)",
+      "baseCost": 0.5,
+      "type": "Товары",
+      "icon": "🧵",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Имбирь (1 фунт)",
+      "baseCost": 1,
+      "type": "Товары",
+      "icon": "🌿",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Коза",
+      "baseCost": 1,
+      "type": "Товары",
+      "icon": "🐐",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Корица (1 фунт)",
+      "baseCost": 2,
+      "type": "Товары",
+      "icon": "🌿",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Перец (1 фунт)",
+      "baseCost": 2,
+      "type": "Товары",
+      "icon": "🌿",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Овца",
+      "baseCost": 2,
+      "type": "Товары",
+      "icon": "🐑",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Гвоздика (1 фунт)",
+      "baseCost": 3,
+      "type": "Товары",
+      "icon": "🌿",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Свинья",
+      "baseCost": 3,
+      "type": "Товары",
+      "icon": "🐷",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Серебро (1 фунт)",
+      "baseCost": 5,
+      "type": "Товары",
+      "icon": "🪙",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Льняная ткань (1 кв.м)",
+      "baseCost": 5,
+      "type": "Товары",
+      "icon": "🧵",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Шёлк (1 кв.м)",
+      "baseCost": 10,
+      "type": "Товары",
+      "icon": "🧵",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Корова",
+      "baseCost": 10,
+      "type": "Товары",
+      "icon": "🐄",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Шафран (1 фунт)",
+      "baseCost": 15,
+      "type": "Товары",
+      "icon": "🌿",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Вол",
+      "baseCost": 15,
+      "type": "Товары",
+      "icon": "🐂",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Золото (1 фунт)",
+      "baseCost": 50,
+      "type": "Товары",
+      "icon": "🪙",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Платина (1 фунт)",
+      "baseCost": 500,
+      "type": "Товары",
+      "icon": "🪙",
+      "desc": "",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Бледная настойка",
+      "baseCost": 250,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Поглощаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Дым жжённого отура",
+      "baseCost": 500,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Вдыхаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Злоба",
+      "baseCost": 250,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Вдыхаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Змеиный яд",
+      "baseCost": 200,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Оружейный",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Кровь ассасина",
+      "baseCost": 150,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Поглощаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Масло таггита",
+      "baseCost": 400,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Контактный",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Полуночные слёзы",
+      "baseCost": 1500,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Поглощаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Слизь ползающего падальщика",
+      "baseCost": 200,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Контактный",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Ступор",
+      "baseCost": 600,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Поглощаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Сыворотка правды",
+      "baseCost": 150,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Поглощаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Эссенция эфира",
+      "baseCost": 300,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Вдыхаемый",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Яд виверны",
+      "baseCost": 1200,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Оружейный",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Яд дроу",
+      "baseCost": 200,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Оружейный",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Яд лилового червя",
+      "baseCost": 2000,
+      "type": "Яды",
+      "icon": "☠️",
+      "desc": "Вид: Оружейный",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Бутилированное дыхание",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье бдительного отдыха",
+      "baseCost": 25,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Об",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье величия дракона",
+      "baseCost": 25000,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ле",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье водной формы",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье возможностей",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье газообразной формы",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье героизма",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье долголетия",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье дружбы с животными",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье живучести",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье контроля разума (зверя)",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье контроля разума (гуманоида)",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье контроля разума (чудовища)",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье лазания",
+      "baseCost": 25,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Об",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье большого лечения",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье превосходного лечения",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье максимальной мощи",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье многоцветности",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье невидимости",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье неуязвимости",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье огненного дыхания",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье подводного дыхания",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье полёта",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье понимания",
+      "baseCost": 25,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Об",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье преимущества",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье псионической стойкости",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье размеров великана",
+      "baseCost": 25000,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ле",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье силы великана (Холмовой великан)",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье силы великана (Ледяной/каменный великан)",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье силы великана (Огненный великан)",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье силы великана (Облачный великан)",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье силы великана (Штормовой великан)",
+      "baseCost": 25000,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ле",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье силы холмового великана",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье скорости",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье сопротивления",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье увеличения",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье уменьшения",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье чтения мыслей",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье яда",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Зелье ясновидения",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Любовное зелье",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Масло остроты",
+      "baseCost": 2500,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ор",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Масло ускользания",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Масло эфирности",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Противоядие крови ликантропа",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Противоядие пыли мумии",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Противоядие фессалтоксин",
+      "baseCost": 50,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Не",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    },
+    {
+      "name": "Эликсир здоровья",
+      "baseCost": 250,
+      "type": "Зелья",
+      "icon": "🧪",
+      "desc": "Редкость: Ре",
+      "tags": [],
+      "allowedMaterials": [],
+      "hasVariations": false
+    }
+  ],
+  "qualities": [
+    {
+      "name": "Плохое",
+      "class": "tag-qual-poor",
+      "mult": 0.9,
+      "weight": 20
+    },
+    {
+      "name": "Обычное",
+      "class": "tag-qual-normal",
+      "mult": 1,
+      "weight": 64
+    },
+    {
+      "name": "Качественное",
+      "class": "tag-qual-good",
+      "mult": 1.5,
+      "weight": 10
+    },
+    {
+      "name": "Изысканное",
+      "class": "tag-qual-exquisite",
+      "mult": 3,
+      "weight": 5
+    },
+    {
+      "name": "Легендарное",
+      "class": "tag-qual-legendary",
+      "mult": 8,
+      "weight": 1
+    }
+  ],
+  "materials": [
+    {
+      "name": "Дерево",
+      "mult": 1,
+      "rarity": 99,
+      "tags": [
+        "Деревянное оружие",
+        "Щиты"
+      ]
+    },
+    {
+      "name": "Кожа",
+      "mult": 1,
+      "rarity": 99,
+      "tags": [
+        "Доспехи",
+        "Щиты"
+      ]
+    },
+    {
+      "name": "Шелк",
+      "mult": 5,
+      "rarity": 20,
+      "tags": [
+        "Одежда"
+      ]
+    },
+    {
+      "name": "Камень",
+      "mult": 0.5,
+      "rarity": 5,
+      "tags": [
+        "Оружие"
+      ]
+    },
+    {
+      "name": "Кожа Дракона",
+      "mult": 10,
+      "rarity": 1,
+      "tags": [
+        "Доспехи"
+      ]
+    },
+    {
+      "name": "Сталь",
+      "mult": 1,
+      "rarity": 99,
+      "tags": [
+        "Доспехи",
+        "Оружие",
+        "Щиты",
+        "Боеприпасы"
+      ]
+    },
+    {
+      "name": "Серебро",
+      "mult": 25,
+      "rarity": 15,
+      "tags": [
+        "Оружие",
+        "Доспехи",
+        "Боеприпасы",
+        "Щиты"
+      ]
+    },
+    {
+      "name": "Мифрил",
+      "mult": 35,
+      "rarity": 3,
+      "tags": [
+        "Боеприпасы",
+        "Оружие",
+        "Доспехи",
+        "Щиты"
+      ]
+    },
+    {
+      "name": "Электрум",
+      "mult": 25,
+      "rarity": 7,
+      "tags": [
+        "Боеприпасы"
+      ]
+    },
+    {
+      "name": "Адское Железо",
+      "mult": 25,
+      "rarity": 15,
+      "tags": [
+        "Доспехи",
+        "Оружие",
+        "Щиты",
+        "Боеприпасы"
+      ]
+    },
+    {
+      "name": "Эльфийская сталь",
+      "mult": 30,
+      "rarity": 15,
+      "tags": [
+        "Доспехи",
+        "Оружие",
+        "Щиты",
+        "Боеприпасы"
+      ]
+    },
+    {
+      "name": "Золото",
+      "mult": 50,
+      "rarity": 1,
+      "tags": [
+        "Доспехи",
+        "Оружие",
+        "Щиты"
+      ]
+    },
+    {
+      "name": "Адамантин",
+      "mult": 20,
+      "rarity": 5,
+      "tags": [
+        "Щиты",
+        "Оружие",
+        "Боеприпасы",
+        "Доспехи"
+      ]
+    },
+    {
+      "name": "Лён",
+      "mult": 1,
+      "rarity": 99,
+      "tags": [
+        "Одежда"
+      ]
+    }
+  ],
+  "settings": {
+    "settlements": [
+      {
+        "name": "Хутор (Товары редки)",
+        "mult": 1.4
+      },
+      {
+        "name": "Деревня",
+        "mult": 1.2
+      },
+      {
+        "name": "Посёлок",
+        "mult": 1.1
+      },
+      {
+        "name": "Город",
+        "mult": 1
+      },
+      {
+        "name": "Столица (Конкуренция)",
+        "mult": 0.8
+      }
+    ],
+    "demand": {
+      "min": 0.7,
+      "max": 1.3
+    }
+  }
+}
+</script>
