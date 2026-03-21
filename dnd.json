@@ -1,4 +1,3 @@
-<script id="dbJson" type="application/json">
 {
   "types": [
     "Оружие",
@@ -1701,7 +1700,7 @@
     {
       "name": "Яд, простой (флакон)",
       "baseCost": 100,
-      "type": "Яды",
+      "type": "Зелья",
       "icon": "🧪",
       "desc": "—",
       "tags": [],
@@ -3264,4 +3263,3 @@
     }
   }
 }
-</script>
